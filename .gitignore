@@ -1,0 +1,8 @@
+# Virtual environments (not used here, but never commit one)
+.venv/
+# Python's compiled bytecode cache
+__pycache__/
+# JSON Lines files (e.g. logs or transcripts)
+*.jsonl
+# The app's data file: my personal collection, not source code
+polishes.json
