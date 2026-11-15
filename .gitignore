@@ -6,3 +6,4 @@ __pycache__/
 *.jsonl
 # The app's data file: my personal collection, not source code
 polishes.json
+.DS_Store
