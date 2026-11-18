@@ -35,3 +35,10 @@ python3 -m pytest
 - `collection.py`: all the logic (adding, duplicates, search, sort, filter, save/load)
 - `app.py`: the web server and HTML pages
 - `tests/test_collection.py`: pytest tests, each named after the requirement (R1–R6) it checks
+
+## Example
+
+1. Start the app and add a polish, for example OPI, Big Apple Red, creme, 2 bottles.
+2. Try adding OPI Big Apple Red again. The app stops you and shows how many you have, so you can update the quantity instead.
+3. Add Essie Big Apple Red. This is allowed because it's a different brand.
+4. Search for "opi", sort by quantity, or filter by finish.
